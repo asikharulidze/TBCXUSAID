@@ -1,0 +1,193 @@
+
+  @font-face {
+    font-display: block;
+    font-family: menuFont;
+    src: url("https://static.wixstatic.com/ufonts/643d94_dd28b3957391427eb54de1c9eff7cfb1/woff2/file.woff2") format("woff2"),
+    url("https://static.wixstatic.com/ufonts/643d94_dd28b3957391427eb54de1c9eff7cfb1/woff/file.woff") format("woff"),
+    url("https://static.wixstatic.com/ufonts/643d94_dd28b3957391427eb54de1c9eff7cfb1/ttf/file.ttf") format("ttf");
+    }
+@font-face {
+    font-display: block;
+    font-family: TBCCAPS2;
+    src: url("https://static.wixstatic.com/ufonts/643d94_f52303b2efea42e1b4aeed119e42672e/woff2/file.woff2") format("woff2"),
+    url("https://static.wixstatic.com/ufonts/643d94_f52303b2efea42e1b4aeed119e42672e/woff/file.woff") format("woff"),
+    url("https://static.wixstatic.com/ufonts/643d94_f52303b2efea42e1b4aeed119e42672e/ttf/file.ttf") format("ttf");
+    }
+@font-face {
+    font-display: block;
+    font-family: TBC;
+    src: url("https://static.wixstatic.com/ufonts/643d94_dd28b3957391427eb54de1c9eff7cfb1/woff2/file.woff2") format("woff2"),
+    url("https://static.wixstatic.com/ufonts/643d94_dd28b3957391427eb54de1c9eff7cfb1/woff/file.woff") format("woff"),
+    url("https://static.wixstatic.com/ufonts/643d94_dd28b3957391427eb54de1c9eff7cfb1/ttf/file.ttf") format("ttf");
+    }
+.tbc_font{
+    font-family: TBCCAPS2;
+}
+.tbc_font_light{
+    font-family: TBC;
+}
+#fixed_header {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+.nav-ul{
+    overflow: visible;
+    white-space: nowrap;
+}
+.nav-item{
+    padding-left: 2rem;
+}
+
+.img-cover{
+    width: 100%;
+    margin-top: 5.2rem;
+}
+.precontainer {
+    position: relative;
+    text-align: left;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .newline{
+    line-height: 2.8rem;
+  }
+  .tbc_link{
+    transition: var(--trans,color .4s ease 0s);
+    white-space: nowrap;
+    color: #04aef3;
+    text-decoration: none;
+  }
+  .tbc_link:hover{
+    color: rgb(170, 170, 170);
+  }  
+  .web_link{
+    transition: var(--trans,color .4s ease 0s);
+    white-space: nowrap;
+    color: #00aded;
+    text-decoration: none;
+  }
+  .web_link:hover{
+    color: #3e95b5;
+  }
+
+
+  #carousel-container {
+    height: 200px;
+    width:100%;
+    overflow: hidden;
+    margin: 20px auto;
+    position: relative;
+  }
+/*
+  #carousel-items {
+    display: flex;
+    -webkit-transition: opacity 1s ease-in-out;
+       -moz-transition: opacity 1s ease-in-out;
+        -ms-transition: opacity 1s ease-in-out;
+         -o-transition: opacity 1s ease-in-out;
+            transition: opacity 1s ease-in-out;
+  }
+
+   .carousel-item {
+    width: 300px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    opacity: 0;
+  }
+
+  .carousel-item.active {
+    opacity: 1;
+  } */
+
+  .carousel-icons {
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    font-size: 2.5rem;
+  }
+
+  .prev-btn {
+    left: 0;
+  }
+
+  .next-btn {
+    right: 0;
+  }
+
+  .carousel-indicators {
+    position: absolute;
+    bottom: 3rem;
+    left: 35%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+
+  .indicator {
+    width: 7px;
+    height: 7px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+
+  /* .indicator.active {
+    background-color: #333;
+  } */
+
+#accordion{
+    color: white;
+}
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out; 
+    
+}
+
+.accordion-item.active .accordion-content {
+    max-height: 200px; 
+}
+.arrow {
+    float: right;
+    transition: transform 0.3s ease; 
+}
+
+.accordion-item.active .arrow {
+    transform: rotate(180deg); 
+}
+
+.accordion-header{
+  padding-top: 25px ;
+  padding-bottom: 25px ;
+  cursor: pointer;
+  border-bottom: 1px solid rgb(53, 49, 49);
+  font-size: 1.1rem;
+}
+.text-small{
+  font-size: 0.9rem;
+  line-height: 2;
+}
+.ft{
+  font-family: menuFont;
+  color: white;
+}
+.btn-tbc{
+  background-color: #00aef3;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: white;
+}
+.ft-btn{
+  margin-top: 2.5rem;
+}
